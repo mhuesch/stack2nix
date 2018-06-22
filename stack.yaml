@@ -32,5 +32,11 @@ nix:
 
 extra-package-dbs: []
 
+extra-include-dirs:
+- /usr/local/opt/openssl/include
+
+extra-lib-dirs:
+- /usr/local/opt/openssl/lib
+
 ghc-options:
   stack2nix: -Werror
